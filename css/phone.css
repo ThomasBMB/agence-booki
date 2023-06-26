@@ -1,0 +1,141 @@
+@media (max-width: 767px) {
+  /****** General ***********/
+  body {
+    padding: 0;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .liens-nav {
+    display: flex;
+    justify-content: space-around;
+    align-self: stretch;
+    border-bottom: 1px solid var(--main-bg-color);
+  }
+
+  .liens-nav a {
+    margin: 0;
+    padding: 15px 0;
+  }
+
+  .accueil {
+    margin: 20px;
+  }
+
+  .hebergements-and-populaires section {
+    border-radius: 0;
+  }
+
+  form {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  form input {
+    font-size: 14px;
+  }
+
+  form button {
+    width: 50px;
+    font-weight: 700;
+    font-size: 0px;
+    padding: 0;
+    border-radius: 15px;
+  }
+
+  .glass {
+    font-size: 20px;
+  }
+
+  .hebergements-and-populaires section {
+    border-radius: 0;
+  }
+
+  .filters div {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .filters p {
+    font-size: 14px;
+    margin: 0 0 15px 0;
+    width: 40%;
+    flex-wrap: wrap;
+  }
+
+  /****** Hebergements ***********/
+
+  .hebergements {
+    background-color: white;
+    padding: 30px 15px;
+  }
+
+  .hebergements-cards {
+    background-color: white;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+  }
+
+  .hebergements-cards .card {
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  /****** Populaires ***********/
+
+  .populaires {
+    order: -1;
+    margin: 0;
+  }
+
+  .populaires-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .populaires-cards .card {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .afficher-plus {
+    margin-top: 20px;
+  }
+
+  /********* Activites *************/
+
+  .activites {
+    margin: 0;
+    padding: 50px 20px;
+  }
+
+  .activites-cards {
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+  }
+
+  .activites-cards .card {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .activites-cards img {
+    height: 141px;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+
+  footer div {
+    width: 100%;
+  }
+}
