@@ -111,6 +111,7 @@ form input {
 form button {
   border: 0;
   background-color: var(--main-color);
+  font-weight: 700;
   font-size: 18px;
   background: var(--main-color);
   color: #ffffff;
