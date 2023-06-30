@@ -307,7 +307,7 @@ a {
   margin-bottom: 4px;
 }
 
-.hebergements-cards .card-subtitle {
+.hebergements-cards p {
   margin-bottom: 4px;
 }
 
@@ -366,7 +366,7 @@ a {
   margin-bottom: 4px;
 }
 
-.populaires-cards .card-subtitle {
+.populaires-cards p {
   margin: 0;
 }
 

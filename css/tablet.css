@@ -1,4 +1,10 @@
 @media screen and (max-width: 1024px) {
+  .liens-nav a:hover {
+    cursor: pointer;
+    border : none;
+    color: black;
+  }
+
   .filters {
     flex-direction: column;
     align-items: flex-start;
@@ -33,10 +39,6 @@
 
   .populaires-cards .card-title {
     font-size: 14px;
-  }
-
-  .populaires-cards .card-subtitle {
-    font-size: 13px;
   }
 
   .activites-cards img {
