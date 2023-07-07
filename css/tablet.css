@@ -1,47 +1,39 @@
-@media screen and (max-width: 1024px) {
-  .liens-nav a:hover {
-    cursor: pointer;
-    border : none;
-    color: black;
-  }
-
-  .filters {
+.filters {
     flex-direction: column;
     align-items: flex-start;
-  }
+}
 
-  .filters h3 {
+.filters h3 {
     margin-bottom: 20px;
-  }
+}
 
-  .hebergements-and-populaires {
+.hebergements-and-populaires {
     flex-direction: column;
-  }
+}
 
-  .hebergements {
+.hebergements {
     width: 100%;
-  }
+}
 
-  .populaires {
+.populaires {
     width: 100%;
     margin-top: 50px;
-  }
+}
 
-  .populaires-cards {
+.populaires-cards {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-  }
+}
 
-  .populaires-cards .card {
+.populaires-cards .card {
     width: 30%;
-  }
+}
 
-  .populaires-cards .card-title {
+.populaires-cards .card-title {
     font-size: 14px;
-  }
+}
 
-  .activites-cards img {
+.activites-cards img {
     height: 200px;
-  }
 }
